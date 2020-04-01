@@ -1,0 +1,109 @@
+{
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "defaultProfile": "{7e0bc296-6939-4144-9974-65b32659ddfc}",
+    "profiles":
+    {
+        "defaults":
+        {
+            "acrylicOpacity": 0.5,
+            "colorScheme": "Snazzy",
+            "fontFace": "DejaVu Sans Mono for Powerline",
+            "hidden": false,
+            "useAcrylic": true
+        },
+        "list":
+        [
+            {
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "name": "Windows PowerShell",
+                "commandline": "powershell.exe"
+            },
+            {
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "name": "cmd",
+                "commandline": "cmd.exe",
+                "hidden": false
+            },
+            {
+                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+                "name": "Ubuntu",
+                "source": "Windows.Terminal.Wsl"
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            },
+            {
+                "guid": "{7e0bc296-6939-4144-9974-65b32659ddfc}",
+                "name": "PowerShell Core",
+                "commandline": "D:\\Program Files\\PowerShell\\7\\pwsh.exe",
+                "icon": "D:\\Program Files\\PowerShell\\7\\assets\\Powershell_black.ico"
+            },
+            {
+                "guid": "{dbed4569-6fe7-472f-8052-bc0dc02fd555}",
+                "name": "Git Bash",
+                "commandline": "D:\\Program_Files\\Git\\bin\\bash.exe",
+                "icon": "D:\\Program_Files\\Git\\mingw64\\share\\git\\git-for-windows.ico",
+                "startingDirectory": "D:\\Documents\\GitHub"
+            },
+            {
+                "guid": "{957f95a7-9539-46b8-b052-df39de1f1282}",
+                "name": "MSYS2",
+                "commandline": "E:\\msys64\\msys2_shell.cmd -defterm -no-start -msys2",
+                "icon": "E:\\msys64\\msys2.ico"
+            },
+            {
+                "guid": "{3bf9cb4f-ac0a-49ee-8002-f11a648c0ea2}",
+                "name": "Cygwin64",
+                "commandline": "D:\\Program_Files\\cygwin64\\bin\\bash.exe",
+                "icon": "D:\\Program_Files\\cygwin64\\Cygwin.ico"
+            }
+        ]
+    },
+    "schemes": [
+        {
+            "name": "Japanesque",
+            "black": "#343935",
+            "red": "#cf3f61",
+            "green": "#7bb75b",
+            "yellow": "#e9b32a",
+            "blue": "#4c9ad4",
+            "purple": "#a57fc4",
+            "cyan": "#389aad",
+            "white": "#fafaf6",
+            "brightBlack": "#595b59",
+            "brightRed": "#d18fa6",
+            "brightGreen": "#767f2c",
+            "brightYellow": "#78592f",
+            "brightBlue": "#135979",
+            "brightPurple": "#604291",
+            "brightCyan": "#76bbca",
+            "brightWhite": "#b2b5ae",
+            "background": "#1e1e1e",
+            "foreground": "#f7f6ec"
+        },
+        {
+            "name": "Snazzy",
+            "black": "#000000",
+            "red": "#fc4346",
+            "green": "#50fb7c",
+            "yellow": "#f0fb8c",
+            "blue": "#49baff",
+            "purple": "#fc4cb4",
+            "cyan": "#8be9fe",
+            "white": "#ededec",
+            "brightBlack": "#555555",
+            "brightRed": "#fc4346",
+            "brightGreen": "#50fb7c",
+            "brightYellow": "#f0fb8c",
+            "brightBlue": "#49baff",
+            "brightPurple": "#fc4cb4",
+            "brightCyan": "#8be9fe",
+            "brightWhite": "#ededec",
+            "background": "#1e1f29",
+            "foreground": "#ebece6"
+        }          
+    ],
+    "keybindings": []
+}

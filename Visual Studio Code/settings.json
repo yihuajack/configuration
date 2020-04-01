@@ -1,0 +1,133 @@
+{
+    "background.useDefault": false,
+    "background.style": {
+        "content": "''",
+        "pointer-events": "none",
+        "position": "absolute",
+        "z-index": "99999",
+        "width": "100%",
+        "height": "100%",
+        "background-position": "0% 0%",
+        "background-size": "cover",
+        "background-repeat": "no-repeat",
+        "opacity": 0.35
+    },
+    "background.customImages": [
+        "file:///D:/Documents/Picture/Precision/61879076_p0 - vscode.png"
+    ],
+    "atomKeymap.promptV3Features": true,
+    "latex-workshop.latex.tools": [
+        {
+            "name": "pdflatex",
+            "command": "pdflatex",
+            "args": [
+              "-synctex=1",
+              "-interaction=nonstopmode",
+              "-file-line-error",
+              "%DOC%"
+            ]
+        },
+        {
+            "name": "xelatex",
+            "command": "xelatex",
+            "args": [
+              "-synctex=1",
+              "-interaction=nonstopmode",
+              "-file-line-error",
+              "%DOC%"
+            ]
+        },
+        {
+            "name": "bibtex",
+            "command": "bibtex",
+            "args": [
+              "%DOCFILE%"
+            ]
+        }
+    ],
+    "latex-workshop.latex.recipes": [
+        {
+            "name": "PDFLaTeX",
+            "tools": [
+            "pdflatex"
+            ]
+        },
+        {
+            "name": "XeLaTeX",
+            "tools": [
+            "xelatex"
+            ]
+        },
+        {
+            "name": "latexmk",
+            "tools": [
+            "latexmk"
+            ]
+        },
+        {
+            "name": "BibTeX",
+            "tools": [
+            "bibtex"
+            ]
+        },
+        {
+            "name": "pdflatex -> bibtex -> pdflatex*2",
+            "tools": [
+            "pdflatex",
+            "bibtex",
+            "pdflatex",
+            "pdflatex"
+            ]
+        },
+        {
+            "name": "xelatex -> bibtex -> xelatex*2",
+            "tools": [
+            "xelatex",
+            "bibtex",
+            "xelatex",
+            "xelatex"
+            ]
+        }
+    ],
+    "latex-workshop.view.pdf.external.viewer.command": "D:\\Program Files\\SumatraPDF\\SumatraPDF.exe",
+    "latex-workshop.view.pdf.external.synctex.command": "D:\\Program Files\\SumatraPDF\\SumatraPDF.exe",
+    "latex-workshop.view.pdf.external.synctex.args": [
+        "-forward-search",
+        "%TEX%",
+        "%LINE%",
+        "%PDF%"
+    ],
+    "C_Cpp.updateChannel": "Insiders",
+    "kite.showWelcomeNotificationOnStartup": false,
+    "terminal.integrated.shell.windows": "D:\\Program Files\\PowerShell\\7\\pwsh.exe",
+    "editor.fontFamily": "Consolas,'Courier New',monospace",
+    "latex-workshop.view.pdf.viewer": "external",
+    "workbench.colorCustomizations": {
+        "terminal.foreground": "#ebece6",
+        "terminal.background": "#1e1f29",
+        "terminal.ansiBlack": "#000000",
+        "terminal.ansiBlue": "#49baff",
+        "terminal.ansiCyan": "#8be9fe",
+        "terminal.ansiGreen": "#50fb7c",
+        "terminal.ansiMagenta": "#fc4cb4",
+        "terminal.ansiRed": "#fc4346",
+        "terminal.ansiWhite": "#ededec",
+        "terminal.ansiYellow": "#f0fb8c",
+        "terminal.ansiBrightBlack": "#555555",
+        "terminal.ansiBrightBlue": "#49baff",
+        "terminal.ansiBrightCyan": "#8be9fe",
+        "terminal.ansiBrightGreen": "#50fb7c",
+        "terminal.ansiBrightMagenta": "#fc4cb4",
+        "terminal.ansiBrightRed": "#fc4346",
+        "terminal.ansiBrightWhite": "#ededec",
+        "terminal.ansiBrightYellow": "#f0fb8c"
+    },
+    "terminal.integrated.fontFamily": "Source Code Pro for PowerLine",
+    "cSpell.enableFiletypes": [
+        "powershell"
+    ],
+    "cSpell.userWords": [
+        "Japanesque",
+        "powerline"
+    ]
+}
