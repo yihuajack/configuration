@@ -54,7 +54,7 @@ if [ -z "${PROFILEREAD+true}" ] ; then
 
   # Set the user id
   USER="$(/usr/bin/id -un)"
-  HOME="C:\Users\Yihua"
+
   # TMP and TEMP as defined in the Windows environment
   # can have unexpected consequences for cygwin apps, so we define
   # our own to match GNU/Linux behaviour.
@@ -160,3 +160,4 @@ fi
 
 # export PROFILEREAD PATH ORIGINAL_PATH MANPATH INFOPATH USER TMP TEMP PRINTER HOSTNAME PS1 SHELL tmp temp
 export PROFILEREAD PATH ORIGINAL_PATH INFOPATH USER TMP TEMP PRINTER HOSTNAME PS1 SHELL
+HOME="/cygdrive/d/Documents/Programming/cygwinhome"

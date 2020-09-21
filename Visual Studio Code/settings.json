@@ -99,7 +99,7 @@
     ],
     "C_Cpp.updateChannel": "Insiders",
     "kite.showWelcomeNotificationOnStartup": false,
-    "terminal.integrated.shell.windows": "D:\\Program Files\\PowerShell\\7\\pwsh.exe",
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe",
     "editor.fontFamily": "Consolas,'Courier New',monospace",
     "latex-workshop.view.pdf.viewer": "external",
     "workbench.colorCustomizations": {
@@ -129,5 +129,8 @@
     "cSpell.userWords": [
         "Japanesque",
         "powerline"
-    ]
+    ],
+    "debug.allowBreakpointsEverywhere": true,
+    "php.validate.executablePath": "E:\\MAMP\\bin\\php\\php7.3.7\\php.exe",
+    "workbench.colorTheme": "One Dark Pro"
 }

@@ -5,6 +5,7 @@
 export ZSH="/home/ayka_tsuzuki/.oh-my-zsh"
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 export PATH=$HOME/.local/bin:/usr/local/bin:$PATH
+export RUSTUP_IO_THREADS=1
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -73,7 +74,7 @@ ZSH_DISABLE_COMPFIX="true"
 plugins=(git zsh-syntax-highlighting zsh-autosuggestions)
 
 source $ZSH/oh-my-zsh.sh
-
+. "/home/ayka_tsuzuki/.local/share/lscolors.sh"
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -100,7 +101,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 DEFAULT_USER="ayka_tsuzuki"
-eval `dircolors ~/dircolors-solarized/dircolors.256dark`
+eval `dircolors ~/dircolors.256dark`
 # function powerline_precmd(){
 # 	PS1="(powerline-shell --shell zsh ?)"
 # }
@@ -115,11 +116,9 @@ eval `dircolors ~/dircolors-solarized/dircolors.256dark`
 # if [ "$TERM" != "linux" ]; then
 # 	install_powerline_precmd
 # fi
-alias proxy="git config --global http.proxy http://127.0.0.1:1080"
-alias unproxy="git config --global --unset http.proxy"
-export http_proxy=http://127.0.0.1:1080
-export https_proxy=http://127.0.0.1:1080
-export ftp_proxy=http://127.0.0.1:1080
+export http_proxy=http://127.0.0.1:11000
+export https_proxy=http://127.0.0.1:11000
+export ftp_proxy=http://127.0.0.1:11000
 # eval "$(starship init zsh)"
 SSH_ENV="$HOME/.ssh/environment"
 function start_agent {
@@ -139,3 +138,4 @@ else
 	start_agent;
 fi
 trap 'test -n "$SSH_AGENT_PID" && eval `/usr/bin/ssh-agent -k`' 0
+RUSTUP_IO_THREADS=1

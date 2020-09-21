@@ -115,16 +115,9 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-sshd_status=$(service ssh status)
-if [[ $sshd_status = *"is not running"* ]]; then
-  sudo service ssh --full-restart
-fi
-# function _update_ps1() {
-# 	PS1="(powerline-shell ?)"
-# }
-# if [ "$TERM" != "linux" ]; then
-# 	PROMPT_COMMAND="_update_ps1; $PROMPT_COMMAND"
-# fi
+export http_proxy=http://127.0.0.1:8256
+export https_proxy=http://127.0.0.1:8256
+export ftp_proxy=http://127.0.0.1:8256
 sshd_status=$(service ssh status)
 if [[ $sshd_status = *"is not running"* ]]; then
   sudo service ssh --full-restart

@@ -25,11 +25,13 @@
 
 # Exclude *dlls from TAB expansion
 export EXECIGNORE="*.dll"
-HOME="C:\Users\Yihua"
-PATH="/usr/local/bin:/usr/bin"
-exec zsh
+
 # Set a default prompt of: user@host and current_directory
 PS1='\[\e]0;\w\a\]\n\[\e[32m\]\u@\h \[\e[33m\]\w\[\e[0m\]\n\$ '
 
 # Uncomment to use the terminal colours set in DIR_COLORS
 # eval "$(dircolors -b /etc/DIR_COLORS)"
+HOME="/cygdrive/d/Documents/Programming/cygwinhome"
+PATH="/usr/local/bin:/usr/bin"
+cd
+exec zsh
