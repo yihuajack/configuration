@@ -2,7 +2,7 @@
 # Update-DirColors ~/dircolors.256dark
 Import-Module posh-git
 Import-Module oh-my-posh
-Set-Theme PowerLine
+Set-PoshPrompt -Theme jandedobbeleer
 $ChocolateyProfile = "$env:ChocolateyInstall\helpers\chocolateyProfile.psm1"
 if (Test-Path($ChocolateyProfile)) {
   Import-Module "$ChocolateyProfile"

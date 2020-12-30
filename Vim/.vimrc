@@ -7,5 +7,6 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'git://git.wincent.com/command-t.git'
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 Plugin 'zxqfl/tabnine-vim'
+Plugin 'wakatime/vim-wakatime'
 call vundle#end()            " required
 filetype plugin indent on    " required

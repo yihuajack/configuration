@@ -1,0 +1,31 @@
+# Install prerequisites 
+sudo apt-get install bison flex texinfo
+
+# Download binutils sources from gnu.org FTP server:
+wget https://ftp.gnu.org/gnu/binutils/binutils-2.31.tar.bz2
+tar xjf binutils-2.31.tar.bz2
+
+# Alternatively, you may clone them with Git:
+# git clone git://sourceware.org/git/binutils-gdb.git --branch binutils-2_31
+
+# Create a folder where the binutils will be installed (can be any)
+mkdir /opt/cross
+
+# Create a folder for a build process (can be any):  
+cd /tmp
+mkdir build-binutils && cd build-binutils
+
+# Configure build (can dump a lot of info):
+# Note that we disabled build of `gprof` and `gdb` as we do not use them.
+/path/to/binutils/configure --target=mips-linux-gnu --prefix=/opt/cross --disable-gprof --disable-gdb --disable-werror
+
+# Make sources (can dump a lot of info):  
+make
+  
+# Install (can dump a lot of info, usually requires sudo):  
+sudo make install
+
+# Update PATH variable to have binaries available:
+export PATH=$PATH;/opt/cross/bin
+
+# https://github.com/MIPT-ILab/mipt-mips/wiki/MIPS-binutils

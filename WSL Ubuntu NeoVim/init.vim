@@ -15,4 +15,9 @@ Plug 'junegunn/vader.vim',  { 'on': 'Vader', 'for': 'vader' }
 Plug 'junegunn/goyo.vim', { 'for': 'markdown' }
 autocmd! User goyo.vim echom 'Goyo is now loaded!'
 Plug 'Shougo/vimproc.vim', { 'do': 'make' }
+Plug 'yuttie/inkstained-vim'
+Plug 'jiangmiao/auto-pairs'
+Plug 'wakatime/vim-wakatime'
 call plug#end()
+syntax enable
+set background=light

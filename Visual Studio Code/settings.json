@@ -1,47 +1,32 @@
 {
-    "background.useDefault": false,
-    "background.style": {
-        "content": "''",
-        "pointer-events": "none",
-        "position": "absolute",
-        "z-index": "99999",
-        "width": "100%",
-        "height": "100%",
-        "background-position": "0% 0%",
-        "background-size": "cover",
-        "background-repeat": "no-repeat",
-        "opacity": 0.35
-    },
-    "background.customImages": [
-        "file:///D:/Documents/Picture/Precision/61879076_p0 - vscode.png"
-    ],
     "atomKeymap.promptV3Features": true,
     "latex-workshop.latex.tools": [
         {
             "name": "pdflatex",
             "command": "pdflatex",
             "args": [
-              "-synctex=1",
-              "-interaction=nonstopmode",
-              "-file-line-error",
-              "%DOC%"
+                "-shell-escape",
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOC%"
             ]
         },
         {
             "name": "xelatex",
             "command": "xelatex",
             "args": [
-              "-synctex=1",
-              "-interaction=nonstopmode",
-              "-file-line-error",
-              "%DOC%"
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOC%"
             ]
         },
         {
             "name": "bibtex",
             "command": "bibtex",
             "args": [
-              "%DOCFILE%"
+                "%DOCFILE%"
             ]
         }
     ],
@@ -49,43 +34,43 @@
         {
             "name": "PDFLaTeX",
             "tools": [
-            "pdflatex"
+                "pdflatex"
             ]
         },
         {
             "name": "XeLaTeX",
             "tools": [
-            "xelatex"
+                "xelatex"
             ]
         },
         {
             "name": "latexmk",
             "tools": [
-            "latexmk"
+                "latexmk"
             ]
         },
         {
             "name": "BibTeX",
             "tools": [
-            "bibtex"
+                "bibtex"
             ]
         },
         {
             "name": "pdflatex -> bibtex -> pdflatex*2",
             "tools": [
-            "pdflatex",
-            "bibtex",
-            "pdflatex",
-            "pdflatex"
+                "pdflatex",
+                "bibtex",
+                "pdflatex",
+                "pdflatex"
             ]
         },
         {
             "name": "xelatex -> bibtex -> xelatex*2",
             "tools": [
-            "xelatex",
-            "bibtex",
-            "xelatex",
-            "xelatex"
+                "xelatex",
+                "bibtex",
+                "xelatex",
+                "xelatex"
             ]
         }
     ],
@@ -95,11 +80,14 @@
         "-forward-search",
         "%TEX%",
         "%LINE%",
+        "-reuse-instance",
+        "-inverse-search",
+        "\"D:\\Program Files\\Microsoft VS Code\\Code.exe\" -r -g \"%f:%l\"",
         "%PDF%"
     ],
     "C_Cpp.updateChannel": "Insiders",
     "kite.showWelcomeNotificationOnStartup": false,
-    "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\wsl.exe",
+    "terminal.integrated.shell.windows": "D:\\Program Files\\PowerShell\\7\\pwsh.exe",
     "editor.fontFamily": "Consolas,'Courier New',monospace",
     "latex-workshop.view.pdf.viewer": "external",
     "workbench.colorCustomizations": {
@@ -128,9 +116,45 @@
     ],
     "cSpell.userWords": [
         "Japanesque",
-        "powerline"
+        "powerline",
+        "prelab",
+        "stoi",
+        "yihua"
     ],
     "debug.allowBreakpointsEverywhere": true,
     "php.validate.executablePath": "E:\\MAMP\\bin\\php\\php7.3.7\\php.exe",
-    "workbench.colorTheme": "One Dark Pro"
+    "workbench.colorTheme": "One Dark Pro",
+    "cmake.configureOnOpen": true,
+    "python.defaultInterpreterPath": "e:\\Program_Files\\venv\\Scripts\\python.exe",
+    "tabnine.experimentalAutoImports": true,
+    "arduino.path": "F:\\Program Files\\Arduino",
+    "files.associations": {
+        "*.cls": "vba"
+    },
+    "powermode.enabled": true,
+    "powermode.presets": "particles",
+    "background.enabled": true,
+    "background.useDefault": false,
+    "background.customImages": [
+        "D:/Documents/Picture/Precision/72055179_p0.jpg"
+    ],
+    "background.style": {
+        "content": "''",
+        "pointer-events": "none",
+        "position": "absolute",
+        "z-index": "99999",
+        "width": "100%",
+        "height": "100%",
+        "background-position": "100% 100%",
+        "background-repeat": "no-repeat",
+        "background-size": "cover",
+        "opacity": 0.35
+    },
+    "background.useFront": false,
+    "breadcrumbs.enabled": true,
+    "workbench.activityBar.visible": true,
+    "workbench.statusBar.visible": true,
+    "editor.minimap.enabled": true,
+    "thiefBook.filePath": "D:/Documents/网易云歌单列表.txt",
+    "thiefBook.currPageNumber": 19
 }

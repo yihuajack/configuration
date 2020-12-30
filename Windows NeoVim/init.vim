@@ -33,6 +33,7 @@ Plug 'elzr/vim-json'
 Plug 'dyng/ctrlsf.vim'
 Plug 'airblade/vim-rooter'
 Plug 'tomasiser/vim-code-dark'
+Plug 'wakatime/vim-wakatime'
 call plug#end()
 colors codedark
 let g:airline_theme = 'codedark'

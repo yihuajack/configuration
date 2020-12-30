@@ -80,8 +80,8 @@
             {
                 "guid": "{3bf9cb4f-ac0a-49ee-8002-f11a648c0ea2}",
                 "name": "Cygwin64",
-                "commandline": "D:\\Program_Files\\cygwin64\\bin\\bash.exe",
-                "icon": "D:\\Program_Files\\cygwin64\\Cygwin.ico"
+                "commandline": "E:\\Program_Files\\cygwin64\\bin\\bash.exe",
+                "icon": "E:\\Program_Files\\cygwin64\\Cygwin.ico"
             }
         ]
     },

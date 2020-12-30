@@ -4,8 +4,8 @@ filetype off
 
 " set the runtime path to include Vundle and initialize
 set shellslash
-set rtp+=~/vimfiles/bundle/Vundle.vim
-call vundle#begin('~/vimfiles/bundle')
+set rtp+=D:/Documents/Programming/vimhome/vimfiles/bundle/Vundle.vim
+call vundle#begin('D:/Documents/Programming/vimhome/vimfiles/bundle')
 " alternatively, pass a path where Vundle should install plugins
 "call vundle#begin('~/some/path/here')
 
@@ -28,8 +28,9 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim'}
 " Install L9 and avoid a Naming conflict if you've already installed a
 " different version somewhere else.
 " Plugin 'ascenator/L9', {'name': 'newL9'}
-Plugin 'ycm-core/YouCompleteMe'
+" Plugin 'ycm-core/YouCompleteMe'
 Plugin 'zxqfl/tabnine-vim'
+Plugin 'wakatime/vim-wakatime'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
