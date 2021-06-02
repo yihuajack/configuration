@@ -1,0 +1,147 @@
+Android Studio:
+Codota	Gradle	IdeaVim		Kotlin	Serenade	WakaTime
+
+Atom:
+atom-typescript	busy-signal	emmet-atom	hyperclick		intentions
+kite	linter	linter-ui-default	seranade	wakatime		you-complete-me
+
+CLion:
+C/C++ Single File Execution	IdeaVim	Kite Code AutoComplete: Python, JavaScript, Go	Rust
+Serenade		Toml	WakaTime
+
+Eclipse (C/C++):
+WakaTime
+
+Eclipse (Java):
+Eclipse Tools for Cloud Foundry	Eclipse Web Developer Tools	WakaTime
+
+Eclipse (Rust):
+WakaTime
+
+Emacs:
+company	company-tabnine	tide	use-package	wakatime-mode
+
+IntelliJ IDEA:
+Codota	IdeaVim	Kite Code AutoComplete: Python, JavaScript, Go	Kotlin	Serenade
+Smalidea	WakaTime
+
+Microsoft Office (通用):
+	活动应用程序加载项：
+Acrobat PDFMaker Office COM Addin
+Kingsoft MSO2PdfPlugins Addin
+	非活动应用程序加载项：
+Microsoft Action Pane 3
+
+Microsoft Word:
+	Office 加载项：
+Bing Dictionary (English)
+	活动应用程序加载项：
+Baidu Netdisk Word Addin
+EndNote (Cwyw Citation Recognizer)
+EndNote Cite While You Write
+EndNote Cwyw.dotm
+Grammarly
+Microsoft Word 稿纸向导加载项
+Microsoft Word 书法加载项
+电话号码 (XML)
+度量单位转换器 (度量单位转换器)
+即时消息联系人 (英语)
+日期 (XML)
+网易有道Word翻译插件
+网易有道词典Office插件
+	非活动应用程序加载项：
+ActionPane Schema for Add-Ins
+C:\Users\Yihua\AppData\Local\Temp\EndNote\Templates.14780\EndNote Online Cwyw.dotm
+C:\Users\Yihua\AppData\Local\Temp\EndNote\Templates.18836\EndNote Online Cwyw.dotm
+C:\Users\Yihua\AppData\Local\Temp\EndNote\Templates.19672\EndNote Online Cwyw.dotm
+C:\Users\Yihua\AppData\Local\Temp\EndNote\Templates.24780\EndNote Cwyw.dotm
+C:\Users\Yihua\AppData\Local\Temp\EndNote\Templates.24780\EndNote Online Cwyw.dotm
+C:\Users\Yihua\AppData\Local\Temp\EndNote\Templates.7584\EndNote Online Cwyw.dotm
+C:\Users\Yihua\AppData\Local\Temp\EndNote\Templates.9364\EndNote Cwyw.dotm
+C:\Users\Yihua\AppData\Local\Temp\EndNote\Templates.9364\EndNote Online Cwyw.dotm
+EndNote Online Cwyw.dotm
+Microsoft Word 信封向导
+时间 (XML)
+有关 Word 文档的 OneNote 便笺
+
+Microsoft Excel:
+	Office 加载项：
+Bing Dictionary (English)
+	活动应用程序加载项：
+Baidu Netdisk Excel Addin
+COMSOL 5.5
+中文转换加载项
+	非活动应用程序加载项：
+Euro Currency Tools
+Inquire
+Load Test Report Addin
+Microsoft Power Map for Excel
+Microsoft Power Pivot for Excel
+Microsoft Power View for Excel
+分析工具库
+分析工具库 - VBA
+规划求解加载项
+日期 (XML)
+
+Microsoft Outlook:
+Acrobat
+CalDav Synchronizer
+Grammarly
+SOLIDWORKS Manage
+
+Microsoft PowerPoint:
+	Office 加载项：
+	活动应用程序加载项：
+Baidu Netdisk PPTAddin
+COMSOL 5.5 Linked Content
+EndNote PowerPoint Add-in
+网易有道词典Office插件
+	非活动应用程序加载项：
+网易有道词典Office插件
+有关 PowerPoint 演示文稿的 OneNote 便笺
+
+Microsoft SQL Server Management Studio:
+WakaTime
+
+PyCharm:
+Datalore	IdeaVim	Kite Code AutoComplete: Python, JavaScript, Go	Serenade	WakaTime
+
+Sublime Text 3:
+KiteSublime	Tabnine	TypeScript	Package Control	PowerShell	WakaTime
+
+TeXstudio:
+WakaTime
+
+Vim: (Supplement)
+wakatime/vim-wakatime	pathogen.vim
+
+Visual Studio:
+ArcGIS Runtime SDK for .NET
+ArcGIS Runtime SDK for .NET - Templates
+Azure Data Lake 和流分析工具(and Stream Analytics Tools)
+ClaudiaIDE
+Cloud Explorer for VS 2019 Preview
+GitHub Extension for Visual Studio
+IncrediBuild Build Acceleration
+JetBrains Resharper 2020.3.2
+Live Share
+Microsoft Library Manager
+NuGetRecommender
+NVIDIA Nsight Integration
+PowerShell Tools for Visual Studio
+Qt Visual Studio Tools
+SQLite for Universal Windows Platform
+SQLite for Windows Runtime
+Test Adapter for Boost.Test
+Visual Studio IntelliCode
+Visual Studio Rich Navigation
+Visual Studio Snapshot Debugger
+Visual Studio 2019 Tools for Unity
+WakaTime
+Windows Driver Kit	
+适用于 Google Test 的测试适配器
+
+Unity:
+JetBrains Rider Editor	Test Framework	TextMeshPro	Timeline
+Unity Collaborate	Unity UI	Visual Studio Code Editor	Visual Studio Editor
+Unity WakaTime

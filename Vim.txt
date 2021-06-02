@@ -1,0 +1,30 @@
+autocmd-events 指定一个逗号分隔的事件名列表
+autocmd-groups 自动化命令行可以被放在一个组中
+isfname (isf) 选项格式
+local-options 仅应用于窗格或缓冲区的选项
+mapleader 定义<Leader>映射（:map <Leader>A oanother line<Esc>）
+maplocalleader 缓冲区局部映射（:map <buffer> <LocalLeader>A oanother line<Esc>）
+matchtime (mat) 显示匹配的括号的时间（单位：十分之一秒）
+omap-info 运算符悬挂映射
+relativenumber (rnu) 显示相对行号
+shiftround (sr) 四舍五入缩进到shiftwidth (sw)的倍数 (输入模式中CTRL-T and CTRL-D)
+wrap 自动换行
+:augroup (aug) {name} 定义一个 autocmd 组名
+:autocmd 自动化命令行
+:echo 打印输出
+:echom 打印并保存输出
+:edit 编辑
+:help 帮助
+:iabbrev 设置缩写
+:let {var-name} = {expr1} 将内部变量 {var-name}设置为表达式 {expr1} 的结果
+:map {lhs} {rhs} 键映射（:nmap，:vmap，:imap，:omap，*unmap，*noremap）
+:map-local 只在当前缓冲区生效的映射
+:messages 打印消息
+:quit (q) 退出
+:setlocal (setl) 只设置当前缓冲区或窗格局部的变量
+:set number (nu) 显示行号
+:set numberwidth 更改行号列宽
+:source 将给定文件的内容按 Vimscript执行
+:split 水平切分
+:vsplit 垂直切分
+:write (w) 写入

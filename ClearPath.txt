@@ -1,0 +1,57 @@
+C:\Program Files\Microsoft SQL Server\120\Setup Bootstrap\Update Cache
+C:\Program Files\NVIDIA Corporation\Installer2[o]
+C:\Program Files (x86)\Microsoft[?]
+C:\Program Files (x86)\Common Files\VMware\InstallerCache
+C:\ProgramData\National Instruments\MDF\ProductCache
+C:\ProgramData\National Instruments\NI Package Manager\packages
+C:\ProgramData\NVIDIA Corporation\NV_Cache
+C:\ProgramData\NVIDIA Corporation\Downloader
+C:\ProgramData\Intel\Package Cache
+C:\System Volume Information
+C:\Users\Yihua\.sonarlint\work
+C:\Users\Yihua\.vscode\extensions[p]
+C:\Users\Yihua\AppData\Local\5EClient
+C:\Users\Yihua\AppData\Local\atom
+C:\Users\Yihua\AppData\Local\AutodeskDesktopApp\cache
+C:\Users\Yihua\AppData\Local\CrashDumps
+C:\Users\Yihua\AppData\Local\Discord
+C:\Users\Yihua\AppData\Local\DouyuLive\cache
+C:\Users\Yihua\AppData\Local\GitHubDesktop
+C:\Users\Yihua\AppData\Local\GoToMeeting
+C:\Users\Yihua\AppData\Local\GrammarlyForWindows
+C:\Users\Yihua\AppData\Local\JetBrains\Installations
+C:\Users\Yihua\AppData\Local\LINE\bin\old
+C:\Users\Yihua\AppData\Local\Microsoft\Edge\User Data\Default
+C:\Users\Yihua\AppData\Local\Microsoft\vscode-cpptools\ipch[s]
+C:\Users\Yihua\AppData\Local\node-gyp\Cache
+C:\Users\Yihua\AppData\Local\NVIDIA Corporation\NVIDIA GeForce Experience\CefCache
+C:\Users\Yihua\AppData\Local\Package Cache
+C:\Users\Yihua\AppData\Local\pip\cache
+C:\Users\Yihua\AppData\Local\riot-desktop
+C:\Users\Yihua\AppData\Local\SquirrelTemp
+C:\Users\Yihua\AppData\Local\Steam\htmlcache
+C:\Users\Yihua\AppData\Local\Temp
+C:\Users\Yihua\AppData\Local\Unity\cache[p]
+C:\Users\Yihua\AppData\Local\Yarn\Cache
+C:\Users\Yihua\AppData\Local\xwalk\Cache
+C:\Users\Yihua\AppData\LocalLow\Oracle
+C:\Users\Yihua\AppData\Roaming\5E对战平台\Cache
+C:\Users\Yihua\AppData\Roaming\Code\CachedData
+C:\Users\Yihua\AppData\Roaming\Code\User\workspaceStorage
+C:\Users\Yihua\AppData\Roaming\HuyaPCLive\HuyaUpdate
+C:\Users\Yihua\AppData\Roaming\IDM\DwnlData\Yihua
+C:\Users\Yihua\AppData\Roaming\InstallShield Installation Information
+C:\Users\Yihua\AppData\Roaming\Lenovo\update\temp
+C:\Users\Yihua\AppData\Roaming\MathWorks\MATLAB\R2019b\LightweightBrowser\jcef_cache
+C:\Users\Yihua\AppData\Roaming\npm-cache\_cacache
+C:\Users\Yihua\AppData\Roaming\NVIDIA\ComputeCache
+C:\Users\Yihua\AppData\Roaming\Slack\Cache
+C:\Users\Yihua\AppData\Roaming\Slack\Service Worker\CacheStorage
+C:\Users\Yihua\AppData\Roaming\thunderx\Cache
+C:\WINDOWS\servicing\LCU
+C:\Windows\SoftwareDistribution\Download[e]
+C:\WINDOWS\SolidWorks[?]
+C:\Windows\Temp
+C:\Windows\WinSxS\Temp[r]
+E:\Program Files\JetBrains\Toolbox\apps
+E:\qqpcmgr_docpro

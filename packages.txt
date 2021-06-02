@@ -1,0 +1,74 @@
+asciidoctor: A fast, open source text processor and publishing toolchain, written in Ruby, for converting AsciiDoc content to HTML 5, DocBook 5, and other formats. | https://asciidoctor.org https://github.com/asciidoctor/asciidoctor
+clangd: clangd language server | https://clangd.llvm.org https://github.com/clangd/clangd
+cli: GitHub’s official command line tool | https://cli.github.com https://github.com/cli/cli
+cmatrix: Terminal based "The Matrix" like implementation | https://github.com/abishekvashok/cmatrix
+croc: Easily and securely send things from one computer to another 🐊 📦 | https://github.com/schollz/croc
+fd: A simple, fast and user-friendly alternative to 'find' | https://github.com/sharkdp/fd
+fzf: 🌸 A command-line fuzzy finder | https://github.com/junegunn/fzf
+edex-ui: A cross-platform, customizable science fiction terminal emulator with advanced monitoring & touchscreen support. | https://github.com/GitSquared/edex-ui
+haxm: Intel® Hardware Accelerated Execution Manager (Intel® HAXM) | https://github.com/intel/haxm
+lsd: The next gen ls command | https://github.com/Peltoche/lsd
+luaforwindows: Lua for Windows is a 'batteries included environment' for the Lua scripting language on Windows. NOTICE: Looking for maintainer. | https://github.com/rjpcomputing/luaforwindows
+neofetch: 🖼️ A command-line system information tool written in bash 3.2+ | https://github.com/dylanaraps/neofetch
+ninja: a small build system with a focus on speed | https://github.com/ninja-build/ninja
+ranger-fm: A VIM-inspired filemanager for the console | https://github.com/ranger/ranger
+ripgrep: https://github.com/BurntSushi/ripgrep | ripgrep recursively searches directories for a regex pattern while respecting your gitignore
+screenfetch: Fetches system/theme information in terminal for Linux desktop screenshots. | https://github.com/KittyKatt/screenFetch
+starship: ☄🌌️ The minimal, blazing-fast, and infinitely customizable prompt for any shell! | https://github.com/starship/starship
+SwitchHosts: Switch hosts quickly! | https://oldj.github.io/SwitchHosts https://github.com/oldj/SwitchHosts
+tdm-gcc: GCC compiler, Windows-friendly. | https://jmeubank.github.io/tdm-gcc
+the_silver_searcher: https://github.com/ggreer/the_silver_searcher | A code-searching tool similar to ack, but faster.
+verilator: Verilator open-source SystemVerilog simulator and lint system | https://www.veripool.org/verilator https://github.com/verilator/verilator
+vimproc: Interactive command execution in Vim. | https://github.com/Shougo/vimproc.vim
+winget-cli: Windows Package Manager CLI (aka winget) | https://github.com/microsoft/winget-cli
+zoxide: A faster way to navigate your filesystem | https://github.com/ajeetdsouza/zoxide
+
+pip:
+astroid catkin_pkgcolorama  cryptography cycler fonttools jedi epc flake8
+importmagic isort kiwisolver lazy-object-proxy matplotlib mccabe neovim numpy
+pandas parso pillow pip pipenv [appdirs distlib firelock virtualenv virtualenv-clone] pluggy psutil
+pycodestyle pyflakes pylint pygame Pygments pyinstaller PyMySQL
+python-dateutil python-jsonrpc-server python-language-server
+requests setuptools six toml tqdm ujson wrapt
+qiskit: Qiskit is an open-source SDK for working with quantum computers at the level of circuits, algorithms, and application modules. | https://github.com/Qiskit/qiskit
+DREAMPlace: Deep learning toolkit-enabled VLSI placement | https://github.com/limbo018/DREAMPlace | entrypoint2, easyprocess, torch, pyunpack, pkgconfig, patool, cairocffi
+
+wakatime yapf
+[for ROS:
+empy ifcfg lark-parser lxml netifaces numpy opencv-python pyparsing pyyaml setuptools
+pydot PyQt5]
+
+npm/yarn:
+yo generator-code typescript ts-node mocha vsce node-gyp sqlite3 create-react-app echarts
+
+scoop:
+grep less sed sudo touch
+
+make/configure:
+mit-scheme: https://www.gnu.org/software/mit-scheme
+
+apt:
+apache2 build-essential flatpak gcc-multilib gdb glimpse gnome-software-plugin-flatpak gettext gparted gtk-3-examples guile-3.0 libapache2-mod-perl2 libgsl-dev libgtk-3-dev libpixman-1-dev mailman3-full nemiver nethogs ninja-build policycoreutils policycoreutils-python-utils sqlite3 swish-e texinfo texlive
+
+cpan:
+DBI DBD::SQLite Bundle::Apache2 File::MMagic
+
+pacman:
+base-devel make mingw-w64-x86_64-boost mingw-w64-x86_64-glade mingw-w64-x86_64-gtk3 mingw-w64-x86_64-python3-gobject mingw-w64-x86_64-toolchain mingw-w64-x86_64-vala ninja
+
+choco:
+Cabal	Chocolatey	Chocolatey Core Extensions	Chocolatey GUI	Dot Net 4.5.2	GHC
+Haskell Development Environment
+March 2014 servicing stack updatae for Windows 8.1 and Windows Server 2012 R2 (KB2919442)
+MSYS2
+Windows RT 8.1, Windows 8.1, and Windows Server 2012 R2 Update: April 2014 (KB2919355)
+
+PowerShell modules (Install-Module):
+ISESteroids PowerShellProtect PowerShellProTools SqlServer
+chocolateyProfile Get-ChildItemColor Microsoft.PowerShell.Management Microsoft.PowerShell.Utility oh-my-posh posh-git posh-sshell PowerShellGet PSReadLine Windows-screenFetch
+
+conda:
+arcgis esri [blinker lerc ntlm-auth oauthlib pyjwt pyshp python-certifi-win32 pywin32-security]
+
+Go:
+gopls gopm

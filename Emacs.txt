@@ -1,0 +1,229 @@
+C-a / Home 将光标移动到“一行”的头部
+C-b / ← 向左移 (backward)
+C-c C-d 设置截止日期
+C-c C-s 计划
+C-c C-t 设置TODO
+C-d / Delete 删除光标后的一个字符 (delete)
+C-e / End 将光标移动到“一行”的尾部
+C-f / → 向右移 (forward)
+C-g 退出一个正在运行中的命令/取消数字参数和只输入到一半的命令
+C-h / F1 / M-x help RET 帮助 (help)
+C-h a 相关命令搜索 (command apropos)
+C-h c 组合键 给出这个命令的简要说明
+C-h f 解释一个函数。需要输入函数名 (describe-function)
+C-h i 阅读手册 (info)
+C-h k 组合键 新打开一个Emacs窗格以显示函数的名称及其文档
+C-h m 查看当前主模式的文档
+C-h r Emacs使用手册 (manual)
+C-h v 显示Emacs变量的文档
+C-k 移除从光标到“行尾”间的字符 (kill)
+C-l 重绘屏幕，并将光标所在行置于屏幕的中央
+C-l C-l 将文本带到屏幕的最上方
+C-M-b 移动到表达式尾端 (backward-sexp)
+C-M-f 移动到表达式前端 (forward-sexp)
+C-M-k 删除表达式 (kill-sexp)
+C-M-t 颠倒表达式顺序 (transpose-sexp)
+C-M-v 滚动另外一个窗格中的文字
+C-M-S-v 向上滚动窗格
+C-M-SPC / C-M-@ 在表达式后放置标记 (mark-sexp)
+C-n / ↓ 下一行 (next)
+C-o 在occur中跳转到符合结果但point保持在occur
+C-p / ↑ 上一行 (previous)
+C-r 向后搜索
+C-s 向前搜索
+C-S-DEL 删除整行
+C-SPC / C-@ 将光标移动到你准备移除的文字的另一端
+C-SPC C-SPC 放置一个标记
+C-u 8 C-f 向前移动8个字符
+C-u 8 C-v 将文本向下滚动8行
+C-u 8 * 插入********
+C-u C-SPC 返回之前的标记
+C-u C-s 用正则表达式搜索
+C-u number C-x r n REG 将number保存到register REG (number-to-register)
+C-u number C-x r + REG 如果REG包括一个数字，递增该数字 (increment-register)
+C-v / PageDown 移动到下一屏
+C-w 移除区域
+C-x 0 关闭所在point的窗口
+C-x 1 只保留一个窗格（关掉其它所有窗格）
+C-x 2 将屏幕划分成两个窗格 (split-window-below)
+C-x 4 0 关闭窗口及其中的缓冲区 (kill-buffer-and-window)
+C-x 4 a 打开另一个缓冲区并允许记录当前编辑文件的更改 (add-change-log-entry-other-window)
+C-x 4 b 在另一个窗口中打开一个选定的缓冲区并将point移动至那个窗口 (switch-to-buffer-other-window)
+C-x 4 c 克隆当前缓冲区到另一个窗口并重命名 (clone-indirect-buffer-other-window)
+C-x 4 d 在另一个窗口中打开一个dired缓冲区 (dired-other-window)
+C-x 4 m 在另一个窗口中写邮件 (compose-mail-other-window)
+C-x 4 r 只读版本的find-file-other-window (find-file-read-only-other-window)
+C-x 4 C-f / C-x 4 f find-file并在新窗口打开文件的 (find-file-other-window)
+C-x 4 C-o 在缓冲区列表中选择一个缓冲区并显示在另一个窗口中但不把point移动到那个窗口 (display-buffer)
+C-x 4 . 在另一个窗口中打开当前point的tag (find-tag-other-window)
+C-x 3 将当前窗口分隔成两个垂直窗口 (split-window-right)
+C-x 5 0 删除当前frame point (delete-frame)
+C-x 5 1 删除不同frame point (delete-other-frame)
+C-x 5 2 创建frame (make-frame-command)
+C-x 5 C-f / C-x 5 f 在不同frame中打开文件 (find-file-other-frame)
+C-x 5 C-o / C-x 5 b 在不同frame中打开缓冲区并将point移动到那里 (display-buffer-other-frame)
+C-x 5 d 在另一个frame中打开一个Dired缓冲区 (dired-other-frame)
+C-x 5 m 打开另一个frame以组成电子邮件 (compose-mail-other-frame)
+C-x 5 o 循环可用的frame (other-frame)
+C-x 5 r 在另一个frame中打开只读文件 (find-file-read-only-other-frame)
+C-x 5 . 在不同frame种寻找所在point的tag (find-tag-other-frame)
+C-x b 切换到不同的缓冲区 (switch-to-buffer)
+C-x b *M<Tab> 切换到*Message*缓冲区
+C-x C-b 列出缓冲区
+C-x C-c 退出（离开）Emacs
+C-x C-e 求point前的sexp的值，将值打印在echo区 (eval-last-sexp EVAL-LAST-SEXP-ARG-INTERNAL)
+C-x C-f 寻找文件（创建新文件-找到不存在的新文件）/切回第一个文件（同时打开多个文件） (save-buffer)
+C-x C-k b 将最近定义的键盘宏绑定到一个键序列（对于Emacs会话周期） (kmacro-bind-to-key)
+C-x C-k C-a 给当前键盘宏计数器加一个数字（在之前加C-u重置为之前的值） (kmacro-add-counter)
+C-x C-k C-c 更改当前宏的计数器值 (kmacro-set-counter)
+C-x C-k C-f 设置插入键盘宏计数器的格式 (kmacro-set-format)
+C-x C-k C-i 将当前宏的计数器插入到缓冲区中 (kmacro-insert-counter)
+C-x C-k C-k 在键盘宏环开头执行键盘宏 (kmacro-end-or-call-macro-repeat)
+C-x C-k C-n 旋转键盘宏环到下一个宏（之前定义的） (kmacro-cycle-ring-next)
+C-x C-k C-p 旋转键盘宏环到前一个宏（之后定义的） (kmacro-cyle-ring-previous)
+C-x C-k n 给最近定义的键盘宏设置一个命令名（对于Emacs会话周期） (kmacro-name-last-macr)
+C-x C-r 编辑制度文件（名字从minibuffer中获取） (ido-find-file-read-only)
+C-x C-w 将缓冲区保存至另一个文件（另存为） (write-file)
+C-x C-s 保存文件
+C-x C-x 交换point和标记 (exchange-point-and-mark)
+C-x d 选择一个目录并启动Dired
+C-x e / f4 重放宏
+C-x f 重新设定行边界字符（C-u 2 0 C-x f）
+C-x k 关闭缓冲区 (kill-buffer)
+C-x o 切换窗格（遍历所有窗格） (other)
+C-x z 在occur中重复之前的命令
+C-x r register命令
+C-x r b 跳转至已保存的书签 (bookmark-jump)
+C-x r C-h 快捷键列表
+C-x r f REG 将所有frame的状态包括他们的窗口保存到register REG (frame-configuration-to-register)
+C-x r i REG 从register REG中插入文本 (insert-register)
+X-x r j REG 跳转倒一个register REG (jump-to-register)
+C-x r l 打开书签列表 (bookmark-bmenu-list)
+C-x r m 设置书签 (bookmark-set)
+C-x r r REG 将区域矩形复制到register REG (copy-rectangle-to-register)
+C-x r s REG 将区域复制到register REG (copy-to-register)
+C-x r SPC REG 在register REG中记录point位置和当前缓冲区 (point-to-register)
+C-x r w REG 将当前frame的窗口设置保存到register REG (window-configuration-to-register)
+C-x s 保存多个缓冲区
+C-x v C-h 显示版本控制的更多信息
+C-x v g 显示文件的标注的版本 (vc-annotate)
+C-x v l 显示文件之前更改的日志 (vc-print-log)
+C-x v u 回滚选中的文件集到其库内容 (vc-revert)
+C-x v = 显示当前文件作出的更改 (vc-diff)
+C-x v ~ 提示版本号并在另一个窗口中显示当前文件的版本 (vc-revision-other-window)
+C-x ( / f3 开始录制宏
+C-x ) / f4 停止录制宏
+C-y 在光标所在处插入你最后移除的文字|召回最近一次移除的内容（粘贴）  (yank)
+C-/ / C-_ / C-x u 撤销 (undo)
+C-? / M-_ 重做 (redo)
+DEL (Backspace) 删除光标前的一个字符
+fg / "%emacs" 回到Emacs中
+M-a 将光标移动到“一句”的头部
+M-b 将光标往后移动一个词
+M-d 移除光标后的一个词
+M-e 将光标移动到“一句”的尾部
+M-f 将光标往前移动一个词
+M-g n 在occur中移到下一个符合结果
+M-g p 在occur中移到上一个符合结果
+M-k 移除从光标到“句尾”间的字符
+M-m j f 寻找最近point的FUNCTION定义 (find-function FUNCTION)
+M-n 移动到后一个输入
+M-p 移动到前一个输入
+M-q 手动折行
+M-s h l 高亮符合输入的正则表达式的行 (highlight-lines-matching-regexp)
+M-s h r 根据正则表达式高亮 (highlight-regexp)
+M-s h u 关闭符合正则表达式的高亮字符串 (unhighlight-regexp)
+M-s h . 高亮所在point的符号 (highlight-symbol-at-point)
+M-s o 运行occur
+M-s . 将所在point的符号传递给C-s (isearch-forward-symbol-at-point)
+M-v / PageUp 移动到上一屏
+M-w 复制区域
+M-x 运行命令 (execute-extended-command)
+M-x auto-fill-mode 开关(toggle)自动折行模式
+M-x customize-group 自定义GROUP
+M-x customize-variable RET make-backup-files RET 关掉文件备份
+M-x delete-frame RET 关闭选中的窗口
+M-x eval-buffer 执行整个缓冲区
+M-x fundamental-mode 切换到Fundamental模式
+M-x ggtags-mode 打开ggtags
+M-x load-theme 加载主题
+M-x make-frame RET 创建新窗口
+M-x package-atuoremove 自动删除无用包
+M-x package-list-pakages 显示包列表
+M-x recentf-mode 开启recentf模式
+M-x recover file RET 恢复自动保存文件
+M-x repl s 字符串替换 (replace-string)
+M-x rgrep 用外部grep命令搜索文本并在缓冲区中电视结果
+M-x smartparens-mode 启用smartparens
+M-x text-mode 切换到Text模式（编辑自然语言文本）
+M-y 召回再前一次被移除的内容
+M-< 将光标移动到所有文字的最开头
+M-DEL 移除光标前的一个词 （剪切）
+M-> 将光标移动到所有文字的最末尾
+M-\ 删除所在point的所有空格
+M-; 在行尾添加注释（如果选中，则在选中区域注释）
+M-/ 动态缩写
+M-% 在occur中执行询问并替换
+o 在occur中跳转到符合结果并转移point
+RET (Enter) 插入一个换行符
+V-z 暂时离开Emacs
+(add-hook 'emacs-lisp-mode-hook 'show-paren-mode) 在emacs-lisp-mode中启用show-paren-mode（高亮括号）
+(add-hook 'emacs-lisp-mode-hook 'smartparens-mode) 在emacs-lisp-mode中启用smartparens-mode（高亮括号）
+(customize-group &optional GROUP OTHER-WINDOW) 自定义GROUP
+(define-abbrev-table 'global-abbrev-table '()) 定义一个缩写表
+(defmacro NAME ARGLIST &optioanl DOCSTRING DECL &rest BODY) 将NAME定义为一个宏
+(describe-function FUNCTION) 显示FUNCTION的全部文档
+(delete-select-mode t) 启用delete-select-mode
+(electric-indent-mode t) 启用electric-indent-mode（默认开启）
+(evil-mode 1) 激活Evil模式
+(execute-extended-command PREFIXARG &optional COMMAND-NAME TYPED) 执行命令
+(find-function FUNCTION) 寻找最近point的FUNCTION定义
+(fset SYMBOL DEFINITION) 将SYMBOL的函数表述设置为DEFINITION并返回DEFINITION
+(global-auto-revert-mode 1) Emacs 自动加载外部修改过的文件
+(global-company-mode t) 启用global-company-mode
+(global-evil-leader-mode) 激活global-evil-leader-mode
+(global-hl-line-mode t) 启用global-hl-line-mode（高亮当前行）
+(global-linum-mode t) 启用global-linum-mode（显示行号）
+(global-set-key (kbd "<f2>") 'open-init-file) 将函数 open-init-file 绑定到 <f2> 键上
+(global-set-key "\C-x\ \C-r" 'recentf-open-files) 为最近打开文件绑定快捷键
+(interactive) 使函数可直接被调用
+(ivy-mode 1)\n(setq ivy-use-virtual-buffers t) 启用swiper
+(load-theme THEME &optional NO-CONFIRM NO-ENABLE) 从文件加载自定义主题名为THEME并可能启用它
+(message FORMAT-STRING &reset ARGS) 在屏幕底部显示一条消息
+(package-list-packages &optional NO-FETCH) 显示包列表
+(require FEATURE &optional FILENAME NOERROR) 如果FEATURE为被加载，则从FILENAME加载
+(require 'hungry-delete_)\n(global-hungry-delete-mode) 全局启用hungry-delete-mode
+(require 'recentf)\n(recentf-mode 1) 启用recentf-mode
+(require 'org)\n(setq org-src-fontify-natively t) 添加Org-mode文本内语法高亮
+(require 'popwin)\n(popwin-mode 1) 启用popwin
+(require 'smartparens-config) 启用smartparens
+(require 'smex)\n(smex-initialize) 启用Smex
+(scroll-bar-mode -1) 关闭滚动条
+(setq [SYM VAL]...) 将每个SYM的值设为VAL
+(setq auto-save-default nil) 关闭自己生产的保存文件
+(setq cursor-type 'bar) 光标设置成bar形状
+(setq dired-dwin-target 1) 将另一个分屏自动设置成拷贝地址的目标
+(setq dired-recursive-copies 'always) 默认递归复制目录
+(setq dired-recursive-deletes 'always) 默认递归删除目录
+(setq hippie-expand-try-function-list '()) 使用 Hippie Expand 完成补全
+(setq org-agenda-files '("~/org")) 设置默认 Org Agenda 文件目录
+(setq package-selected-packages 包列表名) 选定的包
+(setq ring-bell-function 'ignore) 关闭 Emacs 中的警告音
+(setq inhibit-splash-screen q) 关闭启动帮助画面
+(setq initial-frame-alist (quote ((fullscreen . maximized)))) 启动开启全屏
+(setq make-backup-files nil) 取消备份
+(setq recentf-max-menu-items 25) 设置最近文件菜单最大个数
+(setq-default [VAR VALUE]...) 设置变量VAR的默认值为VALUE
+(setq-default abbrev-mode t) 开启abbrev模式
+(setq-default company-idle-delay NUMBER) 自动补全自动开始的idle延迟
+(setq-default company-minimum-prefix-length NUMBER) idle补全最小前缀长度
+(set-face-attribute 'default nil :height 160) 更改显示字体大小
+(smartparens-global-mode t) 全局启用smartparens
+(tool-bar-mode -1) 关闭工具栏
+(unless COND BODY...) 如果COND为nil，执行BODY，否则返回nil
+(window-numbering-mode 1) 激活Windows-numbering
+(with-eval-after-load 'dired
+    (define-key dired-mode-map (kbd "RET") 'dired-find-alternate-file)) 延迟加载Dired Mode
+<s TAB 生成#+BEGIN_SRC\n\n#+END_SRC
+packages:
+company monokai-theme hungry-delete (smex) swiper counsel smartparens js2-mode nodejs-repl exec-path-from-shell

@@ -1,3 +1,0 @@
-sudo apt install libboost-all-dev
-sudo apt install binutils-mips-linux-gnu
-sudo apt install ninja-build

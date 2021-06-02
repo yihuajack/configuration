@@ -1,0 +1,5 @@
+[http]
+	postBuffer = 524288000
+	proxy = http://127.0.0.1:11000
+[https]
+	proxy = http://127.0.0.1:11000
