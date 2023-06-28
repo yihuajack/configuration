@@ -24,7 +24,7 @@ winget-cli: Windows Package Manager CLI (aka winget) | https://github.com/micros
 zoxide: A faster way to navigate your filesystem | https://github.com/ajeetdsouza/zoxide
 
 pip:
-astroid catkin_pkgcolorama  cryptography cycler fonttools jedi epc flake8
+astroid catkin_pkgcolorama cpplint cryptography cycler fonttools jedi epc flake8
 importmagic isort kiwisolver lazy-object-proxy matplotlib mccabe neovim numpy
 pandas parso pillow pip pipenv [appdirs distlib firelock virtualenv virtualenv-clone] pluggy psutil
 pycodestyle pyflakes pylint pygame Pygments pyinstaller PyMySQL
@@ -48,7 +48,7 @@ make/configure:
 mit-scheme: https://www.gnu.org/software/mit-scheme
 
 apt:
-apache2 build-essential flatpak gcc-multilib gdb glimpse gnome-software-plugin-flatpak gettext gparted gtk-3-examples guile-3.0 libapache2-mod-perl2 libgsl-dev libgtk-3-dev libpixman-1-dev mailman3-full nemiver nethogs ninja-build policycoreutils policycoreutils-python-utils sqlite3 swish-e texinfo texlive
+apache2 build-essential flatpak gcc-multilib gdb glimpse gnome-software-plugin-flatpak gettext gparted gtk-3-examples guile-3.0 libapache2-mod-perl2 libgsl-dev libgtk-3-dev libpixman-1-dev mailman3-full nemiver nethogs net-tools ninja-build policycoreutils policycoreutils-python-utils sqlite3 swish-e texinfo texlive
 
 cpan:
 DBI DBD::SQLite Bundle::Apache2 File::MMagic

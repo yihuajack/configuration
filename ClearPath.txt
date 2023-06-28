@@ -41,6 +41,7 @@ C:\Users\Yihua\AppData\Roaming\Code\User\workspaceStorage
 C:\Users\Yihua\AppData\Roaming\HuyaPCLive\HuyaUpdate
 C:\Users\Yihua\AppData\Roaming\IDM\DwnlData\Yihua
 C:\Users\Yihua\AppData\Roaming\InstallShield Installation Information
+C:\Users\Yihua\AppData\Roaming\kingsoft\wps\addons\pool\win-i386
 C:\Users\Yihua\AppData\Roaming\Lenovo\update\temp
 C:\Users\Yihua\AppData\Roaming\MathWorks\MATLAB\R2019b\LightweightBrowser\jcef_cache
 C:\Users\Yihua\AppData\Roaming\npm-cache\_cacache
