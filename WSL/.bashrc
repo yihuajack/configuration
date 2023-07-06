@@ -115,10 +115,4 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-export http_proxy=http://127.0.0.1:8256
-export https_proxy=http://127.0.0.1:8256
-export ftp_proxy=http://127.0.0.1:8256
-sshd_status=$(service ssh status)
-if [[ $sshd_status = *"is not running"* ]]; then
-  sudo service ssh --full-restart
-fi
+source /home/yihua/bash-wakatime/bash-wakatime.sh
