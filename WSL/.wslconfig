@@ -1,0 +1,9 @@
+[experimental]
+autoMemoryReclaim=gradual  
+networkingMode=mirrored
+dnsTunneling=true
+firewall=true
+autoProxy=true
+[wsl2]
+memory=24GB
+guiApplications=true

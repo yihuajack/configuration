@@ -1,5 +1,4 @@
 {
-    "atomKeymap.promptV3Features": true,
     "latex-workshop.latex.tools": [
         {
             "name": "pdflatex",
@@ -16,6 +15,18 @@
             "name": "xelatex",
             "command": "xelatex",
             "args": [
+                "-shell-escape",
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-file-line-error",
+                "%DOC%"
+            ]
+        },
+        {
+            "name": "lualatex",
+            "command": "lualatex",
+            "args": [
+                "-shell-escape",
                 "-synctex=1",
                 "-interaction=nonstopmode",
                 "-file-line-error",
@@ -41,6 +52,12 @@
             "name": "XeLaTeX",
             "tools": [
                 "xelatex"
+            ]
+        },
+        {
+            "name": "LuaLaTeX",
+            "tools": [
+                "lualatex"
             ]
         },
         {
@@ -74,8 +91,9 @@
             ]
         }
     ],
-    "latex-workshop.view.pdf.external.viewer.command": "D:\\Program Files\\SumatraPDF\\SumatraPDF.exe",
-    "latex-workshop.view.pdf.external.synctex.command": "D:\\Program Files\\SumatraPDF\\SumatraPDF.exe",
+    "latex-workshop.view.pdf.viewer": "external",
+    "latex-workshop.view.pdf.external.viewer.command": "C:\\Program Files\\SumatraPDF\\SumatraPDF.exe",
+    "latex-workshop.view.pdf.external.synctex.command": "C:\\Program Files\\SumatraPDF\\SumatraPDF.exe",
     "latex-workshop.view.pdf.external.synctex.args": [
         "-forward-search",
         "%TEX%",
@@ -85,11 +103,9 @@
         "\"D:\\Program Files\\Microsoft VS Code\\Code.exe\" -r -g \"%f:%l\"",
         "%PDF%"
     ],
-    "C_Cpp.updateChannel": "Insiders",
-    "kite.showWelcomeNotificationOnStartup": false,
-    "terminal.integrated.shell.windows": "D:\\Program Files\\PowerShell\\7\\pwsh.exe",
+    "latex-workshop.latex.recipe.default": "lastUsed",
+    "latex-workshop.latex.autoBuild.run": "never",
     "editor.fontFamily": "Consolas,'Courier New',monospace",
-    "latex-workshop.view.pdf.viewer": "external",
     "workbench.colorCustomizations": {
         "terminal.foreground": "#ebece6",
         "terminal.background": "#1e1f29",
@@ -110,33 +126,85 @@
         "terminal.ansiBrightWhite": "#ededec",
         "terminal.ansiBrightYellow": "#f0fb8c"
     },
-    "terminal.integrated.fontFamily": "Source Code Pro for PowerLine",
+    "terminal.integrated.fontFamily": "DejaVuSansMono Nerd Font Mono",
     "cSpell.enableFiletypes": [
-        "powershell"
+        "autolisp",
+        "bat",
+        "bibtex",
+        "bibtex-style",
+        "clojure",
+        "cmake",
+        "gemfile",
+        "json-tmlanguage",
+        "julia",
+        "jupyter",
+        "kotlin",
+        "lua",
+        "matlab",
+        "ocaml",
+        "org",
+        "perl",
+        "perl6",
+        "postscript",
+        "powershell",
+        "r",
+        "racket",
+        "ruby",
+        "scheme",
+        "sql",
+        "vala",
+        "vba",
+        "verilog",
+        "vhdl",
+        "xml",
+        "yaml-tmlanguage"
     ],
     "cSpell.userWords": [
+        "basemap",
+        "bijective",
+        "bitstreams",
+        "collinearity",
+        "combinational",
+        "datasheet",
+        "deanonymize",
+        "deanonymizing",
         "Japanesque",
+        "mathematica",
+        "mispredicted",
+        "multicollinearity",
+        "nmos",
+        "photoresist",
+        "pmos",
+        "Popen",
         "powerline",
         "prelab",
+        "satisfiability",
         "stoi",
-        "yihua"
+        "transconductance",
+        "typeorm",
+        "wakatime",
+        "wirelength",
+        "wiretrace",
+        "yihua",
+        "zener"
     ],
     "debug.allowBreakpointsEverywhere": true,
-    "php.validate.executablePath": "E:\\MAMP\\bin\\php\\php7.3.7\\php.exe",
-    "workbench.colorTheme": "One Dark Pro",
     "cmake.configureOnOpen": true,
-    "python.defaultInterpreterPath": "e:\\Program_Files\\venv\\Scripts\\python.exe",
-    "tabnine.experimentalAutoImports": true,
-    "arduino.path": "F:\\Program Files\\Arduino",
+    "python.defaultInterpreterPath": "D:\\ProgramData\\anaconda3\\python.exe",
     "files.associations": {
-        "*.cls": "vba"
+        "*.cls": "latex",
+        ".spacemacs": "lisp",
+        "*.toml": "toml",
+        "*.mkdn": "markdown",
+        "*.scm": "lisp",
+        "*.m": "matlab",
+        "*.mdx": "markdown",
+        "README": "plaintext"
     },
-    "powermode.enabled": true,
-    "powermode.presets": "particles",
     "background.enabled": true,
     "background.useDefault": false,
     "background.customImages": [
-        "D:/Documents/Picture/Precision/72055179_p0.jpg"
+        "F:/Documents/Picture/Precision/72055179_p0.jpg"
     ],
     "background.style": {
         "content": "''",
@@ -152,9 +220,79 @@
     },
     "background.useFront": false,
     "breadcrumbs.enabled": true,
-    "workbench.activityBar.visible": true,
     "workbench.statusBar.visible": true,
-    "editor.minimap.enabled": true,
-    "thiefBook.filePath": "D:/Documents/网易云歌单列表.txt",
-    "thiefBook.currPageNumber": 19
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "terminal.external.windowsExec": "D:\\Program Files\\PowerShell\\7\\pwsh.exe",
+    "python.languageServer": "Default",
+    "powershell.powerShellAdditionalExePaths": [
+        {
+            "versionName": "PowerShell Core",
+            "exePath": "D:\\Program Files\\PowerShell\\7\\pwsh.exe"
+        }
+    ],
+    "powershell.powerShellDefaultVersion": "PowerShell Core",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
+    "editor.inlineSuggest.enabled": true,
+    "security.workspace.trust.untrustedFiles": "open",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell Core": {
+            "path": "D:\\Program Files\\PowerShell\\7\\pwsh.exe"
+        },
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        }
+    },
+    "redhat.telemetry.enabled": false,
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": true,
+        "plaintext": true,
+        "markdown": true
+    },
+    "terminal.integrated.defaultProfile.windows": "PowerShell Core",
+    "files.watcherExclude": {
+        "**/.bloop": true,
+        "**/.metals": true,
+        "**/.ammonite": true
+    },
+    "verilog.linting.linter": "iverilog",
+    "verilog.linting.iverilog.arguments": "-g2012",
+    "files.eol": "\n",
+    "[c]": {
+        "editor.defaultFormatter": "ms-vscode.cpptools"
+    },
+    "editor.guides.bracketPairs": "active",
+    "diffEditor.codeLens": true,
+    "git.openRepositoryInParentFolders": "always",
+    "mesonbuild.downloadLanguageServer": true,
+    "wakatime.apiKey": "7b63cd5a-40c4-4aa1-bc85-f88504049642",
+    "cmake.showOptionsMovedNotification": false,
+    "remote.SSH.remotePlatform": {
+        "222.29.97.214": "linux"
+    },
+    "terminal.integrated.commandsToSkipShell": [
+        "github.copilot.terminal.suggestCommand",
+        "matlab.interrupt"
+    ],
+    "github.copilot.editor.enableAutoCompletions": true,
+    "settingsSync.ignoredExtensions": [
+        "serayuzgur.crates"
+    ],
+    "go.toolsManagement.autoUpdate": true,
+    "MATLAB.installPath": "E:\\Program Files\\MATLAB\\R2025a",
 }
